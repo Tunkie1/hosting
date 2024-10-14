@@ -1,0 +1,20 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<div id="root"></div>
+
+<!-- Botón para reproducir sonido -->
+<button onclick="document.getElementById('myAudio').play()" 
+style="position: absolute; top: 2.8%; left: 7%; transform: translate(-50%, -50%); background-color: rgba(0, 0, 0, 0.5); color: white; border: none; padding: 10px 20px; cursor: pointer;">
+Reproducir Sonido
+</button>
+
+<!-- Archivo de audio -->
+<audio id="myAudio">
+  <source src="Felicitaciones.mp3" type="audio/mpeg">
+  Tu navegador no soporta audio HTML5.
+</audio>
+
+
+<script src="soroban.js"></script>
